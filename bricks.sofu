@@ -1,0 +1,228 @@
+Brickys={
+	Sebibrick={
+		Type = solid
+		Size = (32 32)
+	        Image = "images/sebiblock.png"
+	}
+	Bricky={
+		Type = solid
+		Size = (32 32)
+	        Image = "images/brick01.png"
+	}
+	Steel={
+		Type = solid
+		Size = (32 16)
+		Image = "images/steelbar1.png"
+	}
+	CW_S={
+		Type = solid
+		Size = (16 32)
+		Image = "images/cwallS0.png"
+	}
+	CW_NS={
+		Type = solid
+		Size = (16 32)
+		Image = "images/cwallNS0.png"
+	}
+	CW_NE={
+		Type = solid
+		Size = (16 24)
+		Image = "images/cwallNE0.png"
+	}
+	CW_NW={
+		Type = solid
+		Size = (16 24)
+		Image = "images/cwallNW0.png"
+	}
+	CW_WE={
+		Type = solid
+		Size = (32 16)
+		Image = "images/cwallWE0.png"
+	}
+	CW_W={
+		Type = solid
+		Size = (32 16)
+		Image = "images/cwallW0.png"
+	}
+	CW_E={
+		Type = solid
+		Size = (32 16)
+		Image = "images/cwallE0.png"
+	}
+	Jump={
+		Type = Jump
+		Size = (2 2)
+		Image = "images/reallyempty.png"
+	}
+	Marker={
+		Type = Deco
+		Size = (32 32)
+		Animation = {
+			Sequence =("images/jumpmarker0.png" "images/jumpmarker1.png")
+			Framelength=200
+		}
+		Image = "images/jumpmarker0.png"
+	}
+	Turn={
+		Type = solid
+		Size = (1 8)
+		Image = "images/reallyempty.png"
+	}
+	Around={
+		Type = Deco
+		Size = (32 32)
+		Animation = {
+			Sequence =("images/turnmarker0.png" "images/turnmarker1.png")
+			Framelength=200
+		}
+	}
+	TopBlock={
+		Type = TopStone
+		Size = (32 32)
+		Image = "images/tplatform.png"
+	}
+}
+Bricks={
+	Turnaround=(
+		{
+			Brick=Turn
+			Position=(16 24)
+		}
+		{
+			Brick=Around
+			Position=(0 0)
+		}
+	)
+	LHPlat=(
+		{
+			Brick=Steel
+			Position=(0 0)
+		}
+		{
+			Brick=Steel
+			Position=(32 0)
+		}
+		{
+			Brick=Steel
+			Position=(64 0)
+		}
+		{
+			Brick=Steel
+			Position=(96 0)
+		}
+	)
+	SHPlat=(
+		{
+			Brick=Steel
+			Position=(0 0)
+		}
+		{
+			Brick=Steel
+			Position=(32 0)
+		}
+	)
+	LShapeLeft=(
+		{
+			Brick=CW_S
+			Position=(0 0)
+		}
+		{
+			Brick=CW_NS
+			Position=(0 32)
+		}
+		{
+			Brick=CW_NE
+			Position=(0 64)
+		}
+		{
+			Brick=CW_WE
+			Position=(16 72)
+		}
+		{
+			Brick=CW_WE
+			Position=(48 72)
+		}
+		{
+			Brick=CW_WE
+			Position=(80 72)
+		}
+		{
+			Brick=CW_W
+			Position=(112 72)
+		}
+	)
+	LShapeRight=(
+		{
+			Brick=CW_S
+			Position=(128 0)
+		}
+		{
+			Brick=CW_NS
+			Position=(128 32)
+		}
+		{
+			Brick=CW_NE
+			Position=(128 64)
+		}
+		{
+			Brick=CW_WE
+			Position=(96 72)
+		}
+		{
+			Brick=CW_WE
+			Position=(64 72)
+		}
+		{
+			Brick=CW_WE
+			Position=(32 72)
+		}
+		{
+			Brick=CW_E
+			Position=(0 72)
+		}
+	)
+	3Brick=(
+		{
+			Brick=Bricky 
+			Position=(0 0)
+		}
+		{
+			Brick=Bricky 
+			Position=(32 0)
+		}
+		{
+			Brick=Bricky 
+			Position=(64 0)
+		}
+	)
+	Sebibrick=(
+		{
+			Brick=Sebibrick
+			Position=(0 0)
+		}
+		{
+			Brick=Jump
+			Position=(16 -2)
+		}
+	)
+	TopBlock=(
+		{
+			Brick=TopBlock
+			Position=(0 0)
+		}
+		{
+			Brick=Jump
+			Position=(16 -2)
+		}
+	)
+	JumpMarker=(
+		{
+			Brick=Jump
+			Position=(16 30)
+		}
+		{
+			Brick=Marker
+			Position=(0 0)
+		}
+	)
+}

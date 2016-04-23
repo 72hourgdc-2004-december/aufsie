@@ -1,0 +1,20 @@
+Animations={
+	Walk={
+		Sequence=("images/char/walk0.png" "images/char/walk1.png" "images/char/walk2.png" "images/char/walk3.png")
+		Framelength=180
+	}
+	Idle={
+		Sequence=("images/char/idle0.png" "images/char/idle1.png" "images/char/idle2.png" "images/char/idle3.png" "images/char/idle4.png" "images/char/idle5.png")
+		Framelength=250
+	}
+	Jump={
+		Sequence=("images/char/jump0.png")
+		Framelength=0
+	}
+	Die={
+		Sequence=("images/char/die0.png" "images/char/die1.png" "images/char/die2.png" "images/char/die3.png" "images/char/die4.png")
+		Framelength=50
+	}
+}
+
+Size = (32 64)

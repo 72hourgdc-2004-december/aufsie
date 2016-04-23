@@ -1,0 +1,76 @@
+Gravity = (0.00000 0.01)
+PlayerStart = (320 96)
+Title = "images/levels/level01.png"
+TitleTime = 3000;
+World = (
+    {
+        Type = solid
+        Position = (320 160)
+        Size = (48 16)
+        Image = "images/startblock.png"
+    }
+    {
+        Type = solid
+        Position = (720 350)
+        Size = (16 16)
+        Image = "images/steelbar0.png"
+    }
+    {
+        Type = solid
+        Position = (736 350)
+        Size = (16 16)
+        Image = "images/steelbar0.png"
+    }
+    {
+        Type = solid
+        Position = (752 350)
+        Size = (16 16)
+        Image = "images/steelbar0.png"
+    }
+    {
+        Type = solid
+        Position = (768 350)
+        Size = (16 16)
+        Image = "images/steelbar0.png"
+    }
+)
+
+Decoration = (
+    {
+        Type = Static
+        Position = (752 318)
+        Size = (32 32)
+        Image = "images/zielschild.png"
+    }
+)
+Enemys = (
+	{
+		Type=Standing
+		Position=(752 318)
+		Size=(32 32)
+		Animation={
+			Sequence=(images/thwomp_idle0.png images/thwomp_idle1.png images/thwomp_thwomping.png)
+			Framelength=100
+		}
+	}
+	{
+		Type=Shooting
+		Position=(752 218)
+		Size=(32 32)
+		Animation={
+			Sequence=(images/cannon0.png)
+			Framelength=0
+		}
+		Bullettime=4000
+		Bullet = {
+			Size=(16 16)
+			Animation={
+				Sequence=(images/shot01.png images/shot02.png)
+				Framelength=100
+			}
+			Speed=(-0.003 0)
+		}
+	}
+)
+		
+Pieces = ("LHPlatJR" "LHPlatJR")

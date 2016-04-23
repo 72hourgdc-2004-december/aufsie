@@ -1,0 +1,165 @@
+Gravity = (0.00000 0.0003)
+PlayerStart = (328 96)
+Title = "images/levels/d_level1.png"
+TitleTime = 3000;
+World = (
+    {
+        Type = solid
+        Position = (320 160)
+        Size = (48 16)
+        Image = "images/startblock.png"
+    }
+    {
+        Type = solid
+        Position = (392 40)
+        Size = (32 16)
+        Image = "images/cwallE0.png"
+    }
+    {
+        Type = solid
+        Position = (424 40)
+        Size = (32 16)
+        Image = "images/cwallWE0.png"
+    }
+    {
+        Type = solid
+        Position = (456 40)
+        Size = (32 16)
+        Image = "images/cwallWE0.png"
+    }
+    {
+        Type = solid
+        Position = (488 40)
+        Size = (32 16)
+        Image = "images/cwallWE0.png"
+    }
+    {
+        Type = solid
+        Position = (520 40)
+        Size = (32 16)
+        Image = "images/cwallWE0.png"
+    }
+    {
+        Type = solid
+        Position = (552 40)
+        Size = (32 16)
+        Image = "images/cwallWE0.png"
+    }
+    {
+        Type = solid
+        Position = (584 40)
+        Size = (32 16)
+        Image = "images/cwallW0.png"
+    }
+    {
+        Type = solid
+        Position = (780 40)
+        Size = (16 32)
+        Image = "images/cwallNS0.png"
+    }
+    {
+        Type = solid
+        Position = (780 72)
+        Size = (16 32)
+        Image = "images/cwallNS0.png"
+    }
+    {
+        Type = solid
+        Position = (780 104)
+        Size = (16 32)
+        Image = "images/cwallN0.png"
+    }
+    {
+        Type = solid
+        Position = (780 8)
+        Size = (16 32)
+        Image = "images/cwallNS0.png"
+    }
+    {
+        Type = solid
+        Position = (780 -24)
+        Size = (16 32)
+        Image = "images/cwallS0.png"
+    }
+    {
+        Type = solid
+        Position = (200 -128)
+        Size = (16 32)
+        Image = "images/cwallS0.png"
+    }
+    {
+        Type = solid
+        Position = (200 -96)
+        Size = (16 32)
+        Image = "images/cwallNS0.png"
+    }
+    {
+        Type = solid
+        Position = (200 -64)
+        Size = (16 32)
+        Image = "images/cwallNS0.png"
+    }
+    {
+        Type = solid
+        Position = (200 -32)
+        Size = (16 32)
+        Image = "images/cwallNS0.png"
+    }
+    {
+        Type = solid
+        Position = (200 0)
+        Size = (16 32)
+        Image = "images/cwallNS0.png"
+    }
+    {
+        Type = Goal
+        Position = (600 -256)
+        Size = (32 32)
+        Image = "images/zielschild.png"
+    }
+    {
+        Type = Jump
+	Position = (704 160)
+	Size = (2 2)
+        Image = "images/reallyempty.png"
+    }	
+    {
+        Type = Jump
+	Position = (286 -40)
+	Size = (2 2)
+        Image = "images/reallyempty.png"
+    }
+)
+
+Decoration = (
+    {
+        Type = Static
+        Position = (688 136)
+        Size = (32 32)
+	Animation = {
+		Sequence =("images/jumpmarker0.png" "images/jumpmarker1.png")
+		Frametime=200
+	}
+    }
+    {
+        Type = Static
+        Position = (270 -64)
+        Size = (32 32)
+	Animation = {
+		Sequence =("images/jumpmarker0.png" "images/jumpmarker1.png")
+		Frametime=200
+	}
+    }
+)
+Pieces = ("SHPlat" "SHPlat" "SHPlat" "SHPlat" "JumpMarker" "JumpMarker" "Sebibrick")
+Enemies = (
+	{
+		Type=Standing
+		Position=(600 -224)
+		Size=(32 32)
+		Animation={
+			Sequence=(images/tplatform.png)
+			Framelength=0
+		}
+	}
+)

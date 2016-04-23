@@ -1,0 +1,60 @@
+Gravity = (0.00000 0.0007)
+PlayerStart = (328 96)
+Title = "images/levels/level03.png"
+TitleTime = 3000;
+World = (
+    {
+        Type = solid
+        Position = (320 160)
+        Size = (48 16)
+        Image = "images/startblock.png"
+    }
+    {
+        Type = solid
+        Position = (304 176)
+        Size = (256 16)
+        Image = "images/steelbar2.png"
+    }
+    {
+        Type = solid
+        Position = (560 176)
+        Size = (256 16)
+        Image = "images/steelbar2.png"
+    }
+    {
+        Type = solid
+        Position = (816 176)
+        Size = (256 16)
+        Image = "images/steelbar2.png"
+    }
+    {
+        Type = Goal
+        Position = (900 144)
+        Size = (32 32)
+        Image = "images/zielschild.png"
+    }
+)
+
+Decoration = (
+)
+Pieces = ("JumpMarker" "JumpMarker")
+Enemies = (
+	{
+		Type=Shooting
+		Position=(996 144)
+		Size=(32 32)
+		Animation={
+			Sequence=(images/cannon0.png)
+			Framelength=0
+		}
+		Bullettime=2500
+		Bullet = {
+			Size=(16 16)
+			Animation={
+				Sequence=("images/shot01.png" "images/shot02.png")
+				Framelength=100
+			}
+			Speed=(-0.3 0)
+		}
+	}
+)

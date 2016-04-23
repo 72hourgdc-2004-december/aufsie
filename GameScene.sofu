@@ -1,0 +1,5 @@
+StopButton = {
+    Image = "images/stopbutton0.png"
+    Position = (607 0)
+    Size = (32 32)
+}

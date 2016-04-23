@@ -1,0 +1,71 @@
+Gravity = (0.00000 0.0003)
+PlayerStart = (320 96)
+Title = "images/levels/level02.png"
+TitleTime = 3000;
+World = (
+    {
+        Type = solid
+        Position = (320 160)
+        Size = (32 16)
+        Image = "images/cwallE0.png"
+    }
+    {
+        Type = solid
+        Position = (352 160)
+        Size = (32 16)
+        Image = "images/cwallWE0.png"
+    }
+    {
+        Type = solid
+        Position = (384 152)
+        Size = (16 24)
+        Image = "images/cwallNWE0.png"
+    }
+    {
+        Type = solid
+        Position = (400 160)
+        Size = (32 16)
+        Image = "images/cwallWE0.png"
+    }
+    {
+        Type = solid
+        Position = (432 160)
+        Size = (32 16)
+        Image = "images/cwallWE0.png"
+    }
+    {
+        Type = solid
+        Position = (464 160)
+        Size = (32 16)
+        Image = "images/cwallW0.png"
+    }
+    {
+        Type = solid
+        Position = (384 120)
+        Size = (16 32)
+        Image = "images/cwallNS0.png"
+    }
+    {
+        Type = solid
+        Position = (384 24)
+        Size = (16 128)
+        Image = "images/4cwallV0.png"
+    }
+    {
+        Type = solid
+        Position = (384 -88)
+        Size = (16 128)
+        Image = "images/4cwallV0.png"
+    }
+    {
+        Type = Goal
+        Position = (432 128)
+        Size = (32 32)
+        Image = "images/zielschild.png"
+    }
+)
+
+Decoration = (
+)
+Pieces = ("LShapeLeft" "LShapeRight" "Sebibrick" "JumpMarker" "JumpMarker")
+Enemies=()

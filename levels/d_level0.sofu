@@ -1,0 +1,211 @@
+Gravity = (0.00000 0.0003)
+PlayerStart = (328 96)
+Title = "images/levels/d_level0.png"
+TitleTime = 3000;
+World = (
+    {
+        Type = solid
+        Position = (320 160)
+        Size = (48 16)
+        Image = "images/startblock.png"
+    }
+    {
+        Type = solid
+        Position = (440 240)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (472 240)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (200 240)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (232 240)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (560 360)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (592 360)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (320 360)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (352 360)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (80 360)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (112 360)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (200 480)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (232 480)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (-40 480)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (-8 480)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (440 480)
+        Size = (256 16)
+        Image = "images/steelbar2.png"
+    }
+    {
+        Type = solid
+        Position = (320 600)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (352 600)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (80 600)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (112 600)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (440 720)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (472 720)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (200 720)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (232 720)
+        Size = (32 32)
+        Image = "images/brick01.png"
+    }
+    {
+        Type = solid
+        Position = (320 840)
+        Size = (32 16)
+        Image = "images/steelbar1.png"
+    }
+    {
+        Type = solid
+        Position = (352 840)
+        Size = (32 16)
+        Image = "images/steelbar1.png"
+    }
+
+    {
+        Type = Goal
+        Position = (336 808)
+        Size = (32 32)
+        Image = "images/zielschild.png"
+    }
+)
+
+Decoration = (
+)
+Pieces = ("Turnaround" "Turnaround" "Turnaround" "Turnaround")
+Enemies = (
+	{
+		Type=Standing
+		Position=(560 328)
+		Size=(32 32)
+		Animation={
+			Sequence=(images/spikeclaw0.png)
+			Framelength=0
+		}
+	}
+	{
+		Type=Standing
+		Position=(304 328)
+		Size=(32 32)
+		Animation={
+			Sequence=(images/spikeclaw0.png)
+			Framelength=0
+		}
+	}
+	{
+		Type=Standing
+		Position=(304 568)
+		Size=(32 32)
+		Animation={
+			Sequence=(images/spikeclaw0.png)
+			Framelength=0
+		}
+	}
+	{
+		Type=Standing
+		Position=(8 448)
+		Size=(32 32)
+		Animation={
+			Sequence=(images/spikeclaw0.png)
+			Framelength=0
+		}
+	}
+)

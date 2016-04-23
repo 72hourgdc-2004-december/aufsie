@@ -1,0 +1,106 @@
+Gravity = (0.00000 0.0003)
+PlayerStart = (328 96)
+Title = "images/levels/d_level2.png"
+TitleTime = 3000;
+World = (
+    {
+        Type = solid
+        Position = (160 160)
+        Size = (256 16)
+        Image = "images/steelbar2.png"
+    }
+    {
+        Type = solid
+        Position = (-96 160)
+        Size = (256 16)
+        Image = "images/steelbar2.png"
+    }
+    {
+        Type = solid
+        Position = (-48 144)
+        Size = (1 16)
+        Image = "images/reallyempty.png"
+    }
+    {
+        Type = solid
+        Position = (160 8)
+        Size = (32 16)
+        Image = "images/cwall_single.png"
+    }
+    {
+        Type = solid
+        Position = (960 -180)
+        Size = (16 32)
+        Image = "images/cwallS0.png"
+    }
+    {
+        Type = solid
+        Position = (960 -148)
+        Size = (16 128)
+        Image = "images/4cwallV0.png"
+    }
+    {
+        Type = solid
+        Position = (960 -20)
+        Size = (16 24)
+        Image = "images/cwallNW0.png"
+    }
+    {
+        Type = solid
+        Position = (928 -12)
+        Size = (32 16)
+        Image = "images/cwallWE0.png"
+    }
+    {
+        Type = solid
+        Position = (896 -12)
+        Size = (32 16)
+        Image = "images/cwallE0.png"
+    }
+    {
+        Type = solid
+        Position = (420 -240)
+        Size = (256 32)
+        Image = "images/8brick.png"
+    }
+    
+    {
+        Type = Goal
+        Position = (240 128)
+        Size = (32 32)
+        Image = "images/zielschild.png"
+    }
+)
+
+Decoration = (
+    {
+        Type = solid
+        Position = (-64 128)
+        Size = (32 32)
+        Animation = {
+            Sequence =("images/turnmarker0.png" "images/turnmarker1.png")
+            Framelength=200
+        }
+    }
+)
+Pieces = ("JumpMarker" "TopBlock" "TopBlock" "JumpMarker" "TopBlock" "TopBlock")
+Enemies = (
+	{
+		Type=Shooting
+		Position=(160 -24)
+		Size=(32 32)
+		Animation={
+			Sequence=(images/cannon1.png)
+			Framelength=1
+		}
+		Bullettime=500
+		Bullet = {
+			Size=(16 16)
+			Animation={
+				Sequence=(images/shot01.png images/shot02.png)
+				Framelength=100
+			}
+			Speed=(0.1 0)
+		}
+	}
+)

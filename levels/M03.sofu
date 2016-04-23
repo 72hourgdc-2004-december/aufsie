@@ -1,0 +1,71 @@
+Gravity = (0.00000 0.0003)
+PlayerStart = (-304 -64)
+Title = "images/levels/M03.png"
+TitleTime = 3000;
+World = (
+    {
+        Type = solid
+        Position = (-336 0)
+        Size = (48 16)
+        Image = "images/startblock.png"
+    }
+    {
+        Type = solid
+        Position = (32 0)
+        Size = (16 32)
+        Image = "images/cwallNS0.png"
+    }
+    {
+        Type = solid
+        Position = (32 32)
+        Size = (16 32)
+        Image = "images/cwallNS0.png"
+    }
+
+    {
+        Type = solid
+        Position = (192 0)
+        Size = (16 32)
+        Image = "images/cwallNS0.png"
+    }
+    {
+        Type = solid
+        Position = (192 32)
+        Size = (16 32)
+        Image = "images/cwallNS0.png"
+    }
+    {
+        Type = solid
+        Position = (-128 32)
+        Size = (16 32)
+        Image = "images/cwallNS0.png"
+    }
+    {
+        Type = solid
+        Position = (-128 0)
+        Size = (16 32)
+        Image = "images/cwallNS0.png"
+    }
+    {
+        Type = Goal
+        Position = (320 64)
+        Size = (32 32)
+        Image = "images/zielschild.png"
+    }
+)
+
+Decoration = (
+)
+Pieces = ("Sebibrick" "Sebibrick" "3Brick" "Sebibrick")
+Enemies = (
+	{
+		Type=Standing
+		Position=(-128 -128)
+		Size=(32 32)
+		Animation={
+			Sequence=(images/spikeclaw0.png)
+			Framelength=100
+		}
+	}
+        
+)

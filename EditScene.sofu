@@ -1,0 +1,10 @@
+StartButton = {
+    Image = "images/playbutton.png"
+    Position = (607 0)
+    Size = (32 32)
+}
+HomeButton = {
+    Image = "images/homebutton.png"
+    Position = (607 32)
+    Size = (32 32)
+}
